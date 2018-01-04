@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{396FFCAE-6EB1-4684-AF86-0E8CEFB180FA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Mozaika.My.MyApplication</StartupObject>
+    <RootNamespace>Mozaika</RootNamespace>
+    <AssemblyName>Mozaika</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Mozaika.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Mozaika.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ikona.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dialogwybor.Designer.vb">
+      <DependentUpon>dialogwybor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dialogwybor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="generujobraz.Designer.vb">
+      <DependentUpon>generujobraz.vb</DependentUpon>
+    </Compile>
+    <Compile Include="generujobraz.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.Designer.vb">
+      <DependentUpon>main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="obiekt.vb" />
+    <Compile Include="oknoinfonarzedzia.Designer.vb">
+      <DependentUpon>oknoinfonarzedzia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="oknoinfonarzedzia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oknoinfoskrotyklaw.Designer.vb">
+      <DependentUpon>oknoinfoskrotyklaw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="oknoinfoskrotyklaw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oprogramie.Designer.vb">
+      <DependentUpon>oprogramie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="oprogramie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="projekt.vb" />
+    <Compile Include="publiczny.vb" />
+    <Compile Include="statystyki.Designer.vb">
+      <DependentUpon>statystyki.vb</DependentUpon>
+    </Compile>
+    <Compile Include="statystyki.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UCplansza.Designer.vb">
+      <DependentUpon>UCplansza.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCplansza.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="welcomescreen.Designer.vb">
+      <DependentUpon>welcomescreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="welcomescreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zmianapalety.Designer.vb">
+      <DependentUpon>zmianapalety.vb</DependentUpon>
+    </Compile>
+    <Compile Include="zmianapalety.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zmianarozmiaru.Designer.vb">
+      <DependentUpon>zmianarozmiaru.vb</DependentUpon>
+    </Compile>
+    <Compile Include="zmianarozmiaru.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="dialogwybor.resx">
+      <DependentUpon>dialogwybor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="generujobraz.resx">
+      <DependentUpon>generujobraz.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oknoinfonarzedzia.resx">
+      <DependentUpon>oknoinfonarzedzia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oknoinfoskrotyklaw.resx">
+      <DependentUpon>oknoinfoskrotyklaw.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oprogramie.resx">
+      <DependentUpon>oprogramie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="statystyki.resx">
+      <DependentUpon>statystyki.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCplansza.resx">
+      <DependentUpon>UCplansza.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="welcomescreen.resx">
+      <DependentUpon>welcomescreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zmianapalety.resx">
+      <DependentUpon>zmianapalety.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zmianarozmiaru.resx">
+      <DependentUpon>zmianarozmiaru.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\stamp ico.png" />
+    <None Include="bin\Debug\rubber ico.png" />
+    <None Include="bin\Debug\picker ico.png" />
+    <None Include="bin\Debug\pencil ico.png" />
+    <None Include="bin\Debug\more ico.png" />
+    <None Include="bin\Debug\magic-wand ico.png" />
+    <None Include="bin\Debug\ikona.ico" />
+    <None Include="bin\Debug\crop ico.png" />
+    <None Include="bin\Debug\bucket ico.png" />
+    <None Include="bin\Debug\file.png" />
+    <None Include="bin\Debug\folder.png" />
+    <Content Include="ikona.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
