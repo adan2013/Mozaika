@@ -2,7 +2,7 @@
 Public Class main
 
     Public Const tytul As String = "Mozaika [adan2013]"
-    Public Const version As String = "3.1"
+    Public Const version As String = "3.2"
 
     Dim sfcenter As StringFormat = New StringFormat()
     Dim PENblacklinie As Pen = New Pen(Brushes.Black, 1)
