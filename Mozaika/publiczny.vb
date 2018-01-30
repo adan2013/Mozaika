@@ -22,7 +22,7 @@
             Case 3
                 main.zmiennarzedzie(main.menurysuj, New EventArgs())
             Case 4
-                main.zmiennarzedzie(main.menustepel, New EventArgs())
+                main.zmiennarzedzie(main.menustempel, New EventArgs())
             Case 5
                 main.zmiennarzedzie(main.menugumka, New EventArgs())
             Case 6

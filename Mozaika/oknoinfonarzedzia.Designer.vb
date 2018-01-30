@@ -132,9 +132,9 @@ Partial Class oknoinfonarzedzia
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(238, Byte))
         Me.Label12.Location = New System.Drawing.Point(50, 374)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(54, 17)
+        Me.Label12.Size = New System.Drawing.Size(66, 17)
         Me.Label12.TabIndex = 38
-        Me.Label12.Text = "Stępel"
+        Me.Label12.Text = "Stempel"
         '
         'PictureBox5
         '

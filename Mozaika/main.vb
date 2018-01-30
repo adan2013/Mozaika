@@ -192,7 +192,7 @@ Public Class main
                 Return 2
             Case "menurysuj"
                 Return 3
-            Case "menustepel"
+            Case "menustempel"
                 Return 4
             Case "menugumka"
                 Return 5

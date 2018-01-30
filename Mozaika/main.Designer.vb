@@ -70,7 +70,7 @@ Partial Class main
         Me.menukolorowanie = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.menurysuj = New System.Windows.Forms.ToolStripButton()
-        Me.menustepel = New System.Windows.Forms.ToolStripButton()
+        Me.menustempel = New System.Windows.Forms.ToolStripButton()
         Me.menugumka = New System.Windows.Forms.ToolStripButton()
         Me.menuzakraplacz = New System.Windows.Forms.ToolStripButton()
         Me.menukolor = New System.Windows.Forms.ToolStrip()
@@ -366,7 +366,7 @@ Partial Class main
         '
         Me.menunarzedzia.Dock = System.Windows.Forms.DockStyle.Left
         Me.menunarzedzia.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
-        Me.menunarzedzia.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.menuzazn, Me.menurozdzka, Me.menukolorowanie, Me.ToolStripSeparator1, Me.menurysuj, Me.menustepel, Me.menugumka, Me.menuzakraplacz})
+        Me.menunarzedzia.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.menuzazn, Me.menurozdzka, Me.menukolorowanie, Me.ToolStripSeparator1, Me.menurysuj, Me.menustempel, Me.menugumka, Me.menuzakraplacz})
         Me.menunarzedzia.Location = New System.Drawing.Point(0, 24)
         Me.menunarzedzia.Name = "menunarzedzia"
         Me.menunarzedzia.Padding = New System.Windows.Forms.Padding(5, 5, 0, 5)
@@ -430,17 +430,17 @@ Partial Class main
         Me.menurysuj.Size = New System.Drawing.Size(42, 48)
         Me.menurysuj.Text = "Rysowanie"
         '
-        'menustepel
+        'menustempel
         '
-        Me.menustepel.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.menustepel.Image = Global.Mozaika.My.Resources.Resources.stamp_ico
-        Me.menustepel.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.menustepel.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.menustepel.Margin = New System.Windows.Forms.Padding(0)
-        Me.menustepel.Name = "menustepel"
-        Me.menustepel.Padding = New System.Windows.Forms.Padding(6)
-        Me.menustepel.Size = New System.Drawing.Size(42, 48)
-        Me.menustepel.Text = "Duplikacja"
+        Me.menustempel.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.menustempel.Image = Global.Mozaika.My.Resources.Resources.stamp_ico
+        Me.menustempel.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.menustempel.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.menustempel.Margin = New System.Windows.Forms.Padding(0)
+        Me.menustempel.Name = "menustempel"
+        Me.menustempel.Padding = New System.Windows.Forms.Padding(6)
+        Me.menustempel.Size = New System.Drawing.Size(42, 48)
+        Me.menustempel.Text = "Duplikacja"
         '
         'menugumka
         '
@@ -693,7 +693,7 @@ Partial Class main
     Friend WithEvents menukolorowanie As ToolStripButton
     Friend WithEvents ToolStripSeparator1 As ToolStripSeparator
     Friend WithEvents menurysuj As ToolStripButton
-    Friend WithEvents menustepel As ToolStripButton
+    Friend WithEvents menustempel As ToolStripButton
     Friend WithEvents menugumka As ToolStripButton
     Friend WithEvents menuzakraplacz As ToolStripButton
     Friend WithEvents menukolor As ToolStrip
